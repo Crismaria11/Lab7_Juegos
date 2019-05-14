@@ -72,7 +72,8 @@ public class PController : MonoBehaviour
             if (power == true)
             {
                 Destroy(collision.gameObject);
-            } else if(power == false)
+            } 
+            else if(power == false)
             {
                 Destroy(gameObject);
             }
